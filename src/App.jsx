@@ -61,8 +61,13 @@ function Hero() {
   return (
     <section className="hero" id="top">
       <div className="hero-inner">
+        <img
+          src="/headshot.jpg"
+          alt="Darren Kim"
+          className="hero-photo"
+        />
         <p className="hero-eyebrow">Software Engineer</p>
-        <h1 className="hero-name">Darren<br />Kim</h1>
+        <h1 className="hero-name">Darren Kim</h1>
         <p className="hero-bio">
           <em>Memento vivere.</em>
         </p>
