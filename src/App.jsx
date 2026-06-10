@@ -96,8 +96,11 @@ function About() {
       <div className="section-inner about-inner">
         <h2 className="section-heading">About</h2>
         <p className="about-text">
-          I'm drawn to the space where agentic systems meet computer
-          graphics — where AI doesn't just generate static output, but
+          Hi, my name is Darren and I'm a grad student at the
+          University of Pennsylvania. I am currently working as an
+          AI Engineer where my work sits at the intersection between
+          agentic systems and computer graphics. In this space, AI does
+          not solely generate static outputs, but
           perceives, reasons, and acts inside real-time visual worlds. My
           recent work spans building on-device voice agents for XR headsets
           and writing WebGL engines from scratch, and I'm increasingly
