@@ -23,12 +23,22 @@
 
   --radius: 10px;
   --max-w: 780px;
+
+  --grid-minor: rgba(37, 99, 235, 0.035);
+  --grid-major: rgba(37, 99, 235, 0.07);
 }
 
 html { scroll-behavior: smooth; }
 
 body {
-  background: var(--bg);
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(var(--grid-major) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-major) 1px, transparent 1px),
+    linear-gradient(var(--grid-minor) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-minor) 1px, transparent 1px);
+  background-size: 96px 96px, 96px 96px, 24px 24px, 24px 24px;
+  background-position: -1px -1px;
   color: var(--ink);
   font-family: var(--font-body);
   font-size: 1rem;
