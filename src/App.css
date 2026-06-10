@@ -150,6 +150,15 @@
   color: var(--ink);
 }
 
+/* ── About ── */
+.about-inner { max-width: 620px; }
+.about-text {
+  font-size: 1.0625rem;
+  color: var(--ink-muted);
+  line-height: 1.8;
+  font-weight: 300;
+}
+
 /* ── Projects ── */
 .projects-grid {
   display: flex;

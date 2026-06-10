@@ -1,6 +1,6 @@
 import './App.css'
 
-const NAV_LINKS = ['Work', 'Skills', 'Contact']
+const NAV_LINKS = ['About', 'Work', 'Skills', 'Contact']
 
 const PROJECTS = [
   {
@@ -26,9 +26,9 @@ const PROJECTS = [
 ]
 
 const SKILLS = [
-  { category: 'Languages', items: ['Java', 'JavaScript', 'C#', 'C', 'C++', 'Python', 'HTML/CSS'] },
+  { category: 'Languages', items: ['JavaScript', 'C#', 'Python', 'HTML/CSS'] },
   { category: 'Graphics & XR', items: ['WebGL', 'Unity', 'HLSL', 'ShaderLab', 'Meta Quest SDK'] },
-  { category: 'AI / ML', items: ['ONNX Runtime', 'Whisper', 'Unity Inference Engine', 'Claude Cowork', 'Cursor', 'Codex'] },
+  { category: 'AI / ML', items: ['ONNX Runtime', 'Whisper', 'Unity Inference Engine'] },
   { category: 'Tools', items: ['Git', 'GitHub Actions', 'Vite', 'React'] },
 ]
 
@@ -85,6 +85,25 @@ function Hero() {
       </div>
       <div className="hero-deco" aria-hidden="true">
         <span className="deco-line" />
+      </div>
+    </section>
+  )
+}
+
+function About() {
+  return (
+    <section className="section" id="about">
+      <div className="section-inner about-inner">
+        <h2 className="section-heading">About</h2>
+        <p className="about-text">
+          I'm drawn to the space where agentic systems meet computer
+          graphics — where AI doesn't just generate static output, but
+          perceives, reasons, and acts inside real-time visual worlds. My
+          recent work spans building on-device voice agents for XR headsets
+          and writing WebGL engines from scratch, and I'm increasingly
+          curious about how autonomous systems can understand, navigate, and
+          manipulate 3D environments in real time.
+        </p>
       </div>
     </section>
   )
@@ -198,6 +217,7 @@ export default function App() {
       <Nav />
       <main>
         <Hero />
+        <About />
         <Work />
         <Skills />
         <Contact />
