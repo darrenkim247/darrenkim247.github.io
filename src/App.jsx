@@ -26,9 +26,9 @@ const PROJECTS = [
 ]
 
 const SKILLS = [
-  { category: 'Languages', items: ['JavaScript', 'C#', 'Python', 'HTML/CSS'] },
+  { category: 'Languages', items: ['Java', 'JavaScript', 'C#', 'C', 'C++', 'Python', 'HTML/CSS'] },
   { category: 'Graphics & XR', items: ['WebGL', 'Unity', 'HLSL', 'ShaderLab', 'Meta Quest SDK'] },
-  { category: 'AI / ML', items: ['ONNX Runtime', 'Whisper', 'Unity Inference Engine'] },
+  { category: 'AI / ML', items: ['ONNX Runtime', 'Whisper', 'Unity Inference Engine', 'Claude Cowork', 'Cursor', 'Codex'] },
   { category: 'Tools', items: ['Git', 'GitHub Actions', 'Vite', 'React'] },
 ]
 
