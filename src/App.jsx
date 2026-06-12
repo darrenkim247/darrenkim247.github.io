@@ -4,6 +4,16 @@ const NAV_LINKS = ['About', 'Work', 'Skills', 'Contact']
 
 const PROJECTS = [
   {
+    id: 'rustychat',
+    title: 'RustYChat',
+    subtitle: 'Chat Application built with Rust, hosted on Shuttle, and leverages OpenAI API',
+    description:
+      'A Rust-built chat application that runs OpenAI\'s Whisper model to help generate responses to text chat',
+    tags: ['Rust', 'HTML', 'JavaScript', 'CSS'],
+    github: 'https://github.com/darrenkim247/chat',
+    highlight: true,
+  },
+  {
     id: 'basicxr',
     title: 'BasicXR',
     subtitle: 'On-device voice commands for Meta Quest',
