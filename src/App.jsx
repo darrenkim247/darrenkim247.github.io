@@ -4,13 +4,13 @@ const NAV_LINKS = ['About', 'Work', 'Skills', 'Contact']
 
 const PROJECTS = [
   {
-    id: 'tcgscanner',
-    title: 'TCGScanner',
-    subtitle: 'Real-time trading card scanner built with Flask and leveraging Google Cloud Vision OCR',
+    id: 'basicxr',
+    title: 'BasicXR',
+    subtitle: 'On-device voice commands for Meta Quest',
     description:
-      'Real-time trading card scanner using your laptop camera, Google Cloud Vision OCR, and live pricing from TCGPlayer.',
-    tags: ['Flask', 'Python', 'Google Cloud Vision'],
-    github: 'https://github.com/darrenkim247/TCGScanner',
+      'A Unity XR application that runs OpenAI\'s Whisper speech-to-text model entirely on-device — no internet required. Enables wake-word detection and natural voice commands on Meta Quest using frame-budgeted inference to hold 72 fps.',
+    tags: ['C#', 'Unity', 'XR', 'ONNX', 'Machine Learning'],
+    github: 'https://github.com/darrenkim247/BasicXR',
     highlight: true,
   },
   {
@@ -24,13 +24,13 @@ const PROJECTS = [
     highlight: true,
   },
   {
-    id: 'basicxr',
-    title: 'BasicXR',
-    subtitle: 'On-device voice commands for Meta Quest',
+    id: 'tcgscanner',
+    title: 'TCGScanner',
+    subtitle: 'Real-time trading card scanner built with Flask and leveraging Google Cloud Vision OCR',
     description:
-      'A Unity XR application that runs OpenAI\'s Whisper speech-to-text model entirely on-device — no internet required. Enables wake-word detection and natural voice commands on Meta Quest using frame-budgeted inference to hold 72 fps.',
-    tags: ['C#', 'Unity', 'XR', 'ONNX', 'Machine Learning'],
-    github: 'https://github.com/darrenkim247/BasicXR',
+      'Real-time trading card scanner using your laptop camera, Google Cloud Vision OCR, and live pricing from TCGPlayer.',
+    tags: ['Flask', 'Python', 'Google Cloud Vision'],
+    github: 'https://github.com/darrenkim247/TCGScanner',
     highlight: true,
   },
   {
