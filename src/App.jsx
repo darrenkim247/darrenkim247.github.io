@@ -49,7 +49,7 @@ const SKILLS = [
   { category: 'Languages', items: ['JavaScript', 'C#', 'Python', 'HTML/CSS'] },
   { category: 'Graphics & XR', items: ['WebGL', 'Unity', 'HLSL', 'ShaderLab', 'Meta Quest SDK'] },
   { category: 'AI / ML', items: ['ONNX Runtime', 'Whisper', 'Unity Inference Engine'] },
-  { category: 'Tools', items: ['Git', 'GitHub Actions', 'Vite', 'React'] },
+  { category: 'Tools', items: ['Git', 'GitHub Actions', 'Vite', 'React', 'OpenTelemetry'] },
 ]
 
 function Nav() {
