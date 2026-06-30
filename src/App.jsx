@@ -4,6 +4,16 @@ const NAV_LINKS = ['About', 'Work', 'Skills', 'Contact']
 
 const PROJECTS = [
   {
+    id: 'tcgscanner',
+    title: 'TCGScanner',
+    subtitle: 'Real-time trading card scanner built with Flask and leveraging Google Cloud Vision OCR',
+    description:
+      'Real-time trading card scanner using your laptop camera, Google Cloud Vision OCR, and live pricing from TCGPlayer.',
+    tags: ['Flask', 'Python', 'Google Cloud Vision'],
+    github: 'https://github.com/darrenkim247/TCGScanner',
+    highlight: true,
+  },
+  {
     id: 'rustychat',
     title: 'RustYChat',
     subtitle: 'Chat Application built with Rust, hosted on Shuttle, and leverages OpenAI API',
@@ -109,13 +119,13 @@ function About() {
           Hi, my name is Darren and I'm a grad student at the
           University of Pennsylvania. I am currently working as an
           AI Engineer where my work sits at the intersection between
-          agentic systems and computer graphics. In this space, AI does
+          applying agents to backend systems. In this space, AI does
           not solely generate static outputs, but
-          perceives, reasons, and acts inside real-time visual worlds. My
+          perceives, reasons, and acts inside deployed systems. My
           recent work spans building on-device voice agents for XR headsets
-          and writing WebGL engines from scratch, and I'm increasingly
+          and reporting telemetry in real-time, and I'm increasingly
           curious about how autonomous systems can understand, navigate, and
-          manipulate 3D environments in real time.
+          manipulate backend environments in real time.
         </p>
       </div>
     </section>
